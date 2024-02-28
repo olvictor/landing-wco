@@ -14,16 +14,16 @@ const Localizacao = () => {
     ]
 
     return (
-    <section className='bg-white xl:h-[auto] w-[100%] xl:px-[150px] xl:py-[120px] flex flex-col gap-[100px] items-center'>
-        <h2 className='text-6xl font-bold text-cor-azul-secundaria w-[auto] animate-fadeIn'>Locais de atendimento</h2>
-        <div className='flex'>
+    <section className='fadeOnRender bg-white xl:h-[auto] w-[100%] xl:px-[150px] xl:py-[120px] flex flex-col gap-[100px] text-center py-[50px] items-center'>
+        <h2 className='text-6xl font-bold text-cor-azul-secundaria w-[auto] drop-shadow-md'>Locais de atendimento</h2>
+        <div className='flex flex-col md:flex-row'>
             <nav className={`bg-cor-azul-bg h-[100px] rounded-xl flex flex-col justify-center px-[10px]`}>
                 <ul className='cursor-pointer'> 
                     <li className={itemAtivo === 0 ? 'text-cor-azul' : 'text-cor-marrom'} onClick={()=> setItemAtivo(0)}>Barra da Tijuca</li>
                     <li className={itemAtivo === 1 ? 'text-cor-azul' : 'text-cor-marrom'} onClick={()=> setItemAtivo(1)}>São Conrado</li>
                 </ul>
             </nav>
-            <iframe src={maps[itemAtivo].src} width="1000" height="600" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe src={maps[itemAtivo].src} className='md:w-[1000px] md:h-[600px] w-[100%] h-[300px]' loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
     </section>
   )

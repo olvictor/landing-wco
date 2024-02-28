@@ -37,11 +37,11 @@ const items = [{
 
 const Serviços = () => {
   return (
-    <section className='bg-white xl:h-5/6 w-[100%] xl:px-[150px] xl:py-[120px] flex flex-col gap-[100px] items-center'>
-        <h2 className='text-6xl font-bold text-cor-azul-secundaria w-[auto] animate-fadeIn'>Procedimentos oferecidos </h2>
-        <div className='flex gap-[50px] items-center justify-center'>
+    <section className='fadeOnRenderDiv bg-white xl:h-5/6 w-[100%] h-[auto] md-h-[0%]  xl:px-[150px] py-[50px] xl:py-[120px] flex flex-col gap-[100px] items-center' id='procedimentos'>
+        <h2 className='md:text-6xl text-4xl text-center font-bold text-cor-azul-secundaria w-[auto] mt-[50px] drop-shadow-md'>Procedimentos oferecidos </h2>
+        <div className='flex gap-[50px] flex-wrap 2xl:flex-nowrap items-center justify-center'>
             {items.map((item)=>{
-                return <div className='bg-cor-azul-bg h-[300px] w-[20%] shadow-md rounded-2xl px-[15px] py-[20px] flex flex-col gap-[10px] hover:scale-[1.2]' key={item}>
+                return <div className='fadeOnRender bg-cor-azul-bg  h-[300px] md:w-[20%] w-[80%] shadow-md rounded-2xl px-[15px] py-[20px] flex flex-col gap-[10px] hover:scale-[1.2]' key={item}>
                 <div className='bg-cor-azul-secundaria h-[50px] w-[50px] rounded-full flex justify-center'>
                     <img src={dente}alt="Foto de dente" className='h-[40px] self-center'/>
                 </div>

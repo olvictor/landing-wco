@@ -8,15 +8,17 @@ import Serviços from './componentes/Serviços/Serviços'
 
 function App() {
 
-  return (
-    <section className='h-screen'>
-      <Header />
-      <ConteudoPrincipal />
-      <Serviços />
-      <Apresentacao />
-      <Localizacao />
-      <Rodape />
-    </section>
+  return (  
+    <div className='w-screen md:w-[100%]'>
+    <Header />
+      <section className='h-screen'>
+        <ConteudoPrincipal />
+        <Serviços />
+        <Apresentacao />
+        <Localizacao />
+        <Rodape />
+      </section>
+    </div>
   )
 }
 

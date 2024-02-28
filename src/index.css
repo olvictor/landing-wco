@@ -10,6 +10,10 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+#root{
+  position: relative;
+}
 body{
   height: auto;
   font-family: "Poppins", sans-serif;
@@ -24,6 +28,24 @@ body{
   background-size: 15px, 15px;
   background-attachment: fixed;
   background-color: #F3F5F9;
+}
+
+.fadeOnRenderDiv{
+  animation: fadeIn .5ms ease-in-out ;
+  animation-timeline: view();
+  animation-range: cover 0% cover 10%;
+}
+
+.fadeOnRender{
+  animation: fadeIn .5ms ease-in-out ;
+  animation-timeline: view();
+  animation-range: cover 0% cover 30%;
+}
+
+.leftRender{
+  animation: slide-in-fwd-left .5ms ease-in-out ;
+  animation-timeline: view();
+  animation-range: cover 0% cover 30%;
 }
 
 

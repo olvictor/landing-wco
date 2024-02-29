@@ -8,7 +8,7 @@ const Rodape = () => {
         <div className='flex  flex-col gap-[10px] w-[100%] md:w-[70%] md:justify-end items-center'>
             <h3>Copyright © 2024 - Todos os direitos reservados - Dr. Willer Carvalho</h3>
             <div className='flex gap-[10px]'>
-              <a href="https://instagram.com"  target="_blank"><FaInstagram className='cursor poninter text-2xl hover:text-cor-azul-secundaria' /></a>
+              <a href="https://www.instagram.com/willerwco/"  target="_blank"><FaInstagram className='cursor poninter text-2xl hover:text-cor-azul-secundaria' /></a>
               <a href="https://bit.ly/willercarvalho"  target="_blank"><FaWhatsapp className='cursor poninter text-2xl hover:text-cor-azul-secundaria' /></a>
             </div>
         </div>

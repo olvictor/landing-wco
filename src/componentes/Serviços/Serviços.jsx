@@ -49,7 +49,7 @@ const Serviços = () => {
                     <h4 className='text-cor-azul-secundaria text-2xl'>{item.titulo}</h4>
                     <p className='text-sm text-cor-marrom align-center justify-items-stretch w-[100%]'>{item.texto}</p>
                 </div>
-                <button className='border border-cor-azul-secundaria rounded-2xl text-cor-azul-secundaria flex items-center justify-between px-[15px] hover:border-cor-azul hover:text-cor-azul'> <p>Saiba mais</p>  <MdKeyboardArrowRight /> </button>
+                <button className='border border-cor-azul-secundaria rounded-2xl text-cor-azul-secundaria flex items-center justify-between px-[15px] hover:border-cor-azul hover:text-cor-azul'> <a href="https://bit.ly/willercarvalho"  target="_blank">Saiba mais</a> <MdKeyboardArrowRight /> </button>
             </div>
             })}
         </div> 

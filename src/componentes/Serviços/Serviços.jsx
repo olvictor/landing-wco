@@ -3,8 +3,8 @@ import dente from '../../assets/dente.png'
 import { MdKeyboardArrowRight } from "react-icons/md";
 
 const items = [{
-    titulo : 'Clínico Geral',
-    texto: 'Realizar limpezas regulares dos dentes para remover placa e tártaro. Realizar exames dentários de rotina para avaliar a saúde bucal.',
+    titulo :'Clínico Geral',
+    texto: 'Responsável por avaliar a saúde oral do paciente por completo. Realizando de profilaxias à extrações dentárias.',
     link : 'bla bla bla'
 },
 {
@@ -14,7 +14,7 @@ const items = [{
 },
 {
     titulo : 'Raspagem',
-    texto: 'Realizado para remover a placa bacteriana e o tártaro (ou cálculo dental) dos dentes e gengivas.',
+    texto: 'Realizada para remover a placa bacteriana e o cálculo dental/tártaro dos dentes e gengiva.',
     link : 'bla bla bla'
 },
 {
@@ -24,7 +24,7 @@ const items = [{
 },
 {
     titulo : 'Tratamento de Canal',
-    texto: 'Realizar tratamentos de canal para tratar infecções ou lesões na polpa do dente, incluindo os sisos.',
+    texto: 'Realizar tratamentos de canal para tratar infecções ou lesões na polpa do dente.',
     link : 'bla bla bla'
 },
 {

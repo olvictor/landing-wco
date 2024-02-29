@@ -13,7 +13,7 @@ const Contato = () => {
                 <div className='bg-cor-azul-secundaria h-[40px] w-[40px] flex justify-center items-center rounded-full'>
                     <MdLocationOn fill='#fff' fontSize={40} />
                 </div>
-                <address>
+                <address className='w-[80%]'>
                     <p className='text-xs'>Av. Ayrton Senna, 2600 - Barra da Tijuca, Rio de Janeiro - RJ, 22775-003</p>
                     <p className='text-xs'>Via Ápia da Rocinha, 42 - Rocinha, Rio de Janeiro - RJ, 22451-540</p>
                 </address>
@@ -23,7 +23,7 @@ const Contato = () => {
                 <div className='bg-cor-azul-secundaria h-[40px] w-[40px] flex justify-center items-center rounded-full'>
                     <FaRegClock fill='#fff' fontSize={40} />
                 </div>
-                <div>
+                <div className='w-[80%]'>
                     <a className='text-xs cursor-pointer' href="https://bit.ly/willercarvalho" target="_blank">Consultas realizadas por <span className='underline'>agendamento</span></a>
                 </div>
             </div>
@@ -31,7 +31,7 @@ const Contato = () => {
                 <div className='bg-cor-azul-secundaria h-[40px] w-[40px] flex justify-center items-center rounded-full'>
                     <MdOutlineEmail fill='#fff' fontSize={40} />
                 </div>
-                <address>
+                <address className='w-[80%]'>
                     <a className='text-xs' href="mailto:victorolvdev@gmail.com" target="_blank">willercarva@gmail.com</a>
                 </address>
             </div>
@@ -39,7 +39,7 @@ const Contato = () => {
                 <div className='bg-cor-azul-secundaria h-[40px] w-[40px] flex justify-center items-center rounded-full'>
                     <MdWhatsapp fill='#fff' fontSize={40} />
                 </div>
-                <address>
+                <address className='w-[80%]'>
                     <a className='text-xs ' href="https://bit.ly/willercarvalho" target="_blank">Entrar em contato pelo Whatsapp</a>
                 </address>
             </div>

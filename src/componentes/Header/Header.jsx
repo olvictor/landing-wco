@@ -32,7 +32,7 @@ const Header = () => {
               <li className='border-b border-cor-marrom p-[5px] w-[100%]'><a href="#">Início</a></li>
               <li className='border-b border-cor-marrom p-[5px] w-[100%]'><a href="#procedimentos">Procedimentos</a></li> 
               <li className='border-b border-cor-marrom p-[5px] w-[100%]'><a href="#sobre">Sobre</a></li>
-              <li className='border-cor-marrom w-[100%]'><a href="#">Contato</a></li>
+              <li className='border-cor-marrom w-[100%]'><a href="#contato">Contato</a></li>
             </ul>
       </div>
     </header>

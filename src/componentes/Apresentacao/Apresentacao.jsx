@@ -11,7 +11,7 @@ const Apresentacao = () => {
                   <img src={willer2} alt='Dr Willer Carvalho' className='h-[700px] absolute z-20 bottom-[15.5%] left-[12.8%] drop-shadow-md	' />
               </div>
               <div className='md:w-[25%] h-[100%] flex flex-col gap-[30px] text-center  text-cor-marrom justify-center md:h-[490px] md:mt-[95px]  z-10 overflow-y-scroll overflow-x-hidden text-clip'>  
-                  <p className='w-[100%] h-[100%] text-left'><span className='text-4xl'>"</span>Olá, sou o Dr. Willer Carvalho, cirurgião dentista dedicado a proporcionar cuidados odontológicos excepcionais e promover sorrisos saudáveis. Minha jornada na odontologia é impulsionada por uma paixão inabalável por ajudar as pessoas a alcançarem e manterem uma saúde bucal ótima.
+                  <p className='w-[100%] h-[100%] text-left'><span>"</span>Olá, sou o Dr. Willer Carvalho, cirurgião dentista dedicado a proporcionar cuidados odontológicos excepcionais e promover sorrisos saudáveis. Minha jornada na odontologia é impulsionada por uma paixão inabalável por ajudar as pessoas a alcançarem e manterem uma saúde bucal ótima.
                   <br></br>
                   <br></br>
                   Ao longo dos anos, tenho buscado aprimorar minhas habilidades e conhecimentos para oferecer tratamentos de qualidade, utilizando as mais recentes inovações e técnicas na área odontológica. Meu compromisso vai além do consultório, visando estabelecer uma relação de confiança com cada paciente, proporcionando um ambiente acolhedor e confortável.
@@ -26,8 +26,9 @@ const Apresentacao = () => {
                   Sinto-me honrado por fazer parte da jornada de cada paciente em direção a um sorriso saudável e radiante. 
                   <br></br>
                   <br></br>
-                  Seja para procedimentos preventivos, restauradores ou estéticos, estou aqui para fornecer cuidados odontológicos de qualidade, focados em sua saúde e felicidade.
-                  Agradeço a confiança que depositam em mim e estou ansioso para ajudá-los a alcançar e manter um sorriso brilhante e saudável. Se tiver alguma dúvida ou necessidade, não hesite em entrar em contato. Estou aqui para cuidar do seu sorriso com dedicação e excelência.<span className='text-4xl'>"</span></p>
+                  <p></p>
+                  Seja para procedimentos preventivos, restauradores ou estéticos, estou aqui para fornecer cuidados odontológicos de qualidade, focados em sua saúde e felicidade.Agradeço a confiança que depositam em mim e estou ansioso para ajudá-los a alcançar e manter um sorriso brilhante e saudável. Se tiver alguma dúvida ou necessidade, não hesite em entrar em contato. 
+                  Estou aqui para cuidar do seu sorriso com dedicação e excelência.<strong>"</strong></p>
               </div>
           </div>
     </section>

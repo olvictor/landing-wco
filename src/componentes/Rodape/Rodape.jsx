@@ -13,7 +13,7 @@ const Rodape = () => {
             </div>
         </div>
 
-        <div className='h-[50px] md:w-[30%] w-[100%] flex mt-[10px] justify-center px-[25px]  gap-[10px]'>
+        <div className='h-[50px] text-xs md:w-[30%] w-[100%] flex mt-[10px] justify-center px-[25px]  gap-[10px]'>
                 <h4>Site desenvolvido por:</h4>
                 <a href="https://www.linkedin.com/in/victorolvdev/" target="_blank" className='text-cor-azul-secundaria'>Victor Oliveira</a>
         </div>

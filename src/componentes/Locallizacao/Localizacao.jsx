@@ -15,7 +15,7 @@ const Localizacao = () => {
 
     return (
     <section className='fadeOnRender bg-white xl:h-[auto] w-[100%] xl:px-[150px] xl:py-[120px] flex flex-col gap-[100px] text-center py-[50px] items-center'>
-        <h2 className='text-6xl font-bold text-cor-azul-secundaria w-[auto] drop-shadow-md'>Locais de atendimento</h2>
+        <h2 className='text-4xl font-bold text-cor-azul-secundaria w-[auto] drop-shadow-md'>Locais de atendimento</h2>
         <div className='flex flex-col md:flex-row'>
             <nav className={`bg-cor-azul-bg h-[100px] rounded-xl flex flex-col justify-center px-[10px]`}>
                 <ul className='cursor-pointer'> 

@@ -38,7 +38,7 @@ const items = [{
 const Serviços = () => {
   return (
     <section className='fadeOnRenderDiv bg-white xl:h-5/6 w-[100%] h-[auto] md-h-[0%]  xl:px-[150px] py-[50px] xl:py-[120px] flex flex-col gap-[100px] items-center' id='procedimentos'>
-        <h2 className='md:text-6xl text-4xl text-center font-bold text-cor-azul-secundaria w-[auto] mt-[50px] drop-shadow-md'>Procedimentos oferecidos </h2>
+        <h2 className='md:text-6xl text-2xl text-center font-bold text-cor-azul-secundaria w-[auto] mt-[50px] drop-shadow-md'>Procedimentos oferecidos </h2>
         <div className='flex gap-[50px] flex-wrap 2xl:flex-nowrap items-center justify-center'>
             {items.map((item)=>{
                 return <div className='fadeOnRender bg-cor-azul-bg  h-[300px] md:w-[20%] w-[80%] shadow-md rounded-2xl px-[15px] py-[20px] flex flex-col gap-[10px] hover:scale-[1.2]' key={item}>

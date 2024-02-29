@@ -20,7 +20,7 @@ const Header = () => {
           <li className='hover:underline'><a href="#">Início</a></li>
           <li className='hover:underline'><a href="#procedimentos">Procedimentos</a></li> 
           <li className='hover:underline'><a href="#sobre">Sobre</a></li>
-          <li className='hover:underline'><a href="#">Contato</a></li>
+          <li className='hover:underline'><a href="#contato">Contato</a></li>
         </ul>
       </nav>
       <div className='gap-[40px] lg:flex hidden'>

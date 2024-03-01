@@ -20,7 +20,11 @@ module.exports = {
         "cor-azul-bg": "#F3F5F9"
       },
       animation: {
-        'fadeIn': 'fadeIn 1s ease-in-out',
+        'fadeIn': 'fadeIn 1s ease-in-out  forwards' ,
+        'fadeIn2': 'fadeIn 1s ease-in-out 1.5s forwards',
+        'fadeIn3': 'fadeIn 1s ease-in-out 2.5s forwards',
+        'fadeIn4': 'fadeIn 1s ease-in-out 3s forwards',
+
         'slideInLeft': 'slide-in-fwd-left .5s ease-in-out'
       },
       fontFamily: {

@@ -64,6 +64,13 @@ body{
   animation-range: cover 0% cover 30%;
 }
 
+.teste{
+  background-image: url('./assets/wave.svg');
+  background-repeat: no-repeat;
+  background-position:bottom;
+  background-size: cover;
+}
+
 
 @keyframes fadeIn {
   from {

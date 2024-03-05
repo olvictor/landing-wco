@@ -6,7 +6,7 @@ import { MdWhatsapp } from "react-icons/md";
 
 const Contato = () => {
   return (
-    <div className='lg:w-[80%] h-[auto]' id='contato'>
+    <div className='fadeOnRender lg:w-[80%] h-[auto]' id='contato'>
         <h2 className='text-4xl md:text-6xl  font-bold text-cor-azul-secundaria w-[auto] drop-shadow-md '>Entre em contato</h2>
         <div className='flex flex-wrap gap-[30px] justify-center items-center mt-[50px]'>
             <div className='flex bg-cor-azul-bg p-[20px] rounded-2xl gap-[10px] w-[80%] lg:w-[300px] lg:h-[100px] justify-center items-center drop-shadow hover:opacity-80'>

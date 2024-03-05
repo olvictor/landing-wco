@@ -4,7 +4,7 @@ import { FaWhatsapp } from "react-icons/fa";
 
 const Rodape = () => {
   return ( 
-    <div className='md:h-[20%] h-[200px] w-[100%] text-center flex flex-col items-center justify-center'>
+    <div className='md:h-[15%] h-[200px] w-[100%] text-center flex flex-col items-center justify-center'>
         <div className='flex  flex-col gap-[10px] w-[100%] md:w-[70%] md:justify-end items-center'>
             <h3>Copyright © 2024 - Todos os direitos reservados - Dr. Willer Carvalho</h3>
             <div className='flex gap-[10px]'>

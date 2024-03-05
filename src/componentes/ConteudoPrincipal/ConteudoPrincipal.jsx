@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import willer from '../../assets/willer.png'
 import willer2 from '../../assets/willer2.png'
 import willer3 from '../../assets/willer2.png'
@@ -8,8 +8,9 @@ import willer4 from '../../assets/willer4.png'
 
 
 const ConteudoPrincipal = () => {
+
   return (
-    <main className='teste md:h-[100%] w-[100%] flex flex-col md:flex-row py-[30px] lg:py-[0px] lg:px-[150px] items-center justify-center'> 
+    <main id='principal' className='waveBG md:h-[100%] w-[100%] flex flex-col md:flex-row py-[30px] lg:py-[0px] lg:px-[150px] items-center justify-center'> 
         <div className='w-[100%] md:w-[50%] md:h-[100%] h-[auto] mt-[100px] flex flex-col gap-[30px]  items-center text-center justify-center drop-shadow-md	'>
          <img src={willer2} alt='Dr Willer Carvalho' className='md:hidden  drop-shadow-md	' />
             <h2 className='sm:text-7xl text-4xl text-cor-azul-secundaria font-bold animate-fadeIn opacity-0'>Dr. Willer Carvalho</h2>

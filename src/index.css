@@ -14,6 +14,7 @@
 #root{
   position: relative;
 }
+
 body{
   height: auto;
   font-family: "Poppins", sans-serif;
@@ -28,9 +29,10 @@ body{
     background-size: 15px, 15px;
     background-attachment: fixed;
     background-color: #F3F5F9;
-  }
+}
+
   
-  ::-webkit-scrollbar-track {
+::-webkit-scrollbar-track {
     background-color: gray ;
     border-radius: 8px;
 }
@@ -64,13 +66,16 @@ body{
   animation-range: cover 0% cover 30%;
 }
 
-.teste{
+.waveBG{
   background-image: url('./assets/wave.svg');
   background-repeat: no-repeat;
   background-position:bottom;
   background-size: cover;
 }
 
+.active{
+  text-decoration: underline;
+}
 
 @keyframes fadeIn {
   from {
@@ -92,5 +97,13 @@ body{
     -webkit-transform: translateZ(0) translateX(0);
             transform: translateZ(0) translateX(0);
     opacity: 1;
+  }
+}
+
+
+@media screen and (max-width: 768px){
+	/* Estilizações CSS */
+  .waveBG{
+    background-image: none;
   }
 }

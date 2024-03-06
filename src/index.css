@@ -77,6 +77,22 @@ body{
   text-decoration: underline;
 }
 
+
+.exit {
+  transform: translateX(-20px);
+  opacity: 0;
+}
+
+.enter {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.fade{
+  animation: fadeIn 1s ease-in-out;
+}
+
+
 @keyframes fadeIn {
   from {
     opacity: 0;
@@ -101,9 +117,11 @@ body{
 }
 
 
+
+
 @media screen and (max-width: 768px){
-	/* Estilizações CSS */
   .waveBG{
     background-image: none;
   }
 }
+
